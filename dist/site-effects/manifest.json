@@ -1,0 +1,63 @@
+{
+  "versions": {
+    "lenis": "1.3.27",
+    "gsap": "3.15.0",
+    "vanta": "0.5.24",
+    "three": "r134",
+    "p5": "0.6.1 (bundled by Vanta)"
+  },
+  "downloaded_at_utc": "2026-11-02T21:04:58.010408+00:00",
+  "repositories": [
+    {
+      "name": "lenis",
+      "github": "https://github.com/darkroomengineering/lenis",
+      "commit": "e01eefb1f55cd08bc051521d74f5f8182b71ee9d"
+    },
+    {
+      "name": "gsap",
+      "github": "https://github.com/greensock/GSAP",
+      "commit": "13e2b790546426a1a2e0e9b409f3f8dc6d6611f2"
+    },
+    {
+      "name": "vanta",
+      "github": "https://github.com/tengbao/vanta",
+      "commit": "f8b351906688b56f0fc744e53bde81fc3c56f150"
+    }
+  ],
+  "lenis_browser_build": {
+    "source": "https://registry.npmjs.org/lenis/-/lenis-1.3.27.tgz",
+    "sha256": "0a2437de050959246edd645a2ffa8b50a6ff6b80d98f6d960f1b4557a4c4209e"
+  },
+  "files": {
+    "auto.js": "9bc5a4ec13d3c464dbe5649fe1a5ff438af673e4e5e7dfa75440d8d9f5d440da",
+    "effects.css": "cbc3bacbd1731097bbe0aa203a22395680955f9cbfbfe11decaeeeb183fbe80b",
+    "licenses/GSAP.html": "a2a554615d4a1ef9d0fab135ae04de92170a747cbe3e652ee50b76b6efb338db",
+    "licenses/LENIS.txt": "7d1896b31f2eed9f286b05faca067c4e35b2f109ae7c4ed5105220e2d2820228",
+    "licenses/P5.txt": "eb2f25f8f165d5f20682c1ce7e99ce69144ecfd80fbed8c17dfd327ecd8b6cb6",
+    "licenses/THREE.txt": "7dddf7c5b8fd10ee654db8857d75d104b5557889aa5a91fc4ca545ea7c07062f",
+    "licenses/VANTA.txt": "65df69dccc2a06fcf307e81da62c0f64b4abc03fe64a23944427a69642edadcb",
+    "runtime.js": "137bb08b7f5fc4a091b573d59218b8f8e7a7d3698ef58f45011e9959421aecd7",
+    "textures/noise.png": "e59217a8eecc2e90bfbe7bb163dfcdd90de155bb35e4e904484ede91b8c0f36d",
+    "vendor/ScrollTrigger.min.js": "b0b14d67b55b0c43c756ac0b106cfcb09d0879945f6ead64451065b0672916a2",
+    "vendor/gsap.min.js": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+    "vendor/lenis.css": "2f668ae84a668327f246faf8a770383a2bf69196d214290fbc4d5548910606c5",
+    "vendor/lenis.min.js": "80f53e77f1c13e379fc246d2b5e299188e20bcb2b2fe7ebb13e8e8c7563a6da7",
+    "vendor/p5.min.js": "bb35f94bb16d30d40302a46b5f8ba8c1e05fbf85582e9472f0d790a37fa35d5e",
+    "vendor/three.r134.min.js": "4891edffd52cdf84a28bcf3b1e05e06d14b9defd568c9521031b3022b98bfc6c",
+    "vendor/vanta.birds.min.js": "afb6786f499f23118b553bd630890b2ca9a75236a2e03efdee6cd832976e6751",
+    "vendor/vanta.cells.min.js": "d5ac526d22a122481822c091cf1924274997cb2dfbb2e8b05f73462e35719eea",
+    "vendor/vanta.clouds.min.js": "97ae7dac61b9d1aae2849e948e0e5c1eac87e4871d65cce580270015ce59d7f9",
+    "vendor/vanta.clouds2.min.js": "a0f944ef40ca2356f8368e714a903d49104d4d39f524e3a597caeabf9cb9a9d9",
+    "vendor/vanta.dots.min.js": "7cdbbfb0906de48c4fe5b5d9a1b281f11b01aa939704a4936c2eea91c0aebb24",
+    "vendor/vanta.fog.min.js": "1345d4adec9907454607a134454c686ac527d2d75efa1e50fc9a94d802177bca",
+    "vendor/vanta.globe.min.js": "b54dda999caa934457c9bdc43e927d0f24531bceb8493c98436ddaa1b256ea9a",
+    "vendor/vanta.halo.min.js": "27375d6ac63e424dd9a7104516a9bc3f79da8c7b16cb9c805ba8aa2c67fae955",
+    "vendor/vanta.net.min.js": "76fe5829c73c27aa4f357200997c160523277c0ddb81f35d5cfb818cc3cb96c6",
+    "vendor/vanta.rings.min.js": "74ca1d0757112c6789ba2b733a9b557ec22276f70600466554029049c8f1f1ba",
+    "vendor/vanta.ripple.min.js": "0e0271e70c9250e79e501a3ab30c04c5c2bb63bd1bb8bb955b351bceecee3d8b",
+    "vendor/vanta.topology.min.js": "3994df090c5ca529d6014e34b6e4276511b3b5742924c596a5a0b76f44f89362",
+    "vendor/vanta.trunk.min.js": "185df70654f63e9c67ba108b081779cfa05ef2b0b698c2f5b0d43ad362971435",
+    "vendor/vanta.waves.min.js": "60a30382a898ae570dd0e88ac903fac9273fd188ae8c8d1984200b9ebd89237d"
+  },
+  "vanta_texture_source": "https://www.vantajs.com/gallery/noise.png"
+}

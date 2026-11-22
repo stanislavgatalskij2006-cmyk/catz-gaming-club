@@ -1,0 +1,11 @@
+@import url('./vendor/lenis.css');
+/* Content stays visible without JavaScript or WebGL. */
+[data-effects-hero] { position: relative; isolation: isolate; overflow: clip; }
+[data-vanta] {
+  position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: var(--effects-background, #10283e);
+}
+[data-vanta] canvas { display: block; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+}
