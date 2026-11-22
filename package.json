@@ -1,0 +1,7 @@
+{
+  "name": "catz-gaming-club",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "node server.mjs", "start": "node server.mjs", "check": "node --check dist/assets/app.js && node --check dist/assets/hero-power.js && node --check server.mjs" }
+}
