@@ -1,0 +1,31 @@
+/* The photo never moves: room light, screen wake and reflected bloom share its SVG. */
+.room-lit,
+.room-neon,
+.screen-wake,
+.power-bloom,
+.hero .ambient { opacity: 0; }
+
+.device-off { opacity: 1; transition: none; }
+.ambient-canvas { position: absolute; inset: 0; }
+.room-neon,
+.screen-wake,
+.power-bloom { pointer-events: none; }
+
+.hero-art [data-power-layer] { will-change: opacity; }
+.hero[data-power-state="on"] .hero-art [data-power-layer],
+.hero[data-power-state="off"] .hero-art [data-power-layer] { will-change: auto; }
+
+.power-control .icon { transition: color 160ms ease; }
+.power-control[aria-pressed="true"] .icon { color: #dc91fb; }
+.power-control[aria-pressed="false"] .icon { color: #91849d; }
+
+@media (max-width: 700px), (pointer: coarse) {
+  .power-bloom { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .room-neon,
+  .screen-wake,
+  .power-bloom { display: none; }
+  .hero-art [data-power-layer] { will-change: auto; }
+}
